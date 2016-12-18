@@ -1,0 +1,27 @@
+{
+  "name": "think-webpack-dev-middleware",
+  "version": "1.0.0",
+  "description": "webpack dev middleware for ThinkJS",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizheming/think-webpack-dev-middleware.git"
+  },
+  "keywords": [
+    "thinkjs",
+    "webpack",
+    "middleware",
+    "dev"
+  ],
+  "author": "lizheming",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lizheming/think-webpack-dev-middleware/issues"
+  },
+  "homepage": "https://github.com/lizheming/think-webpack-dev-middleware#readme",
+  "dependencies": {
+    "http-connect": "^0.1.4",
+    "webpack-dev-middleware": "^1.9.0"
+  }
+}
