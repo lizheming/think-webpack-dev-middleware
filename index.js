@@ -3,7 +3,10 @@ var webpackDevMiddleware = require('webpack-dev-middleware');
 
 module.exports = function(compiler, options) {
   return function(http) {
-    var app = new connect(http);
-    app.use(webpackDevMiddleware(compiler, options));
+    return new Promise(function(resolve, reject) {
+      var app = new connect(http);
+      app.use(webpackDevMiddleware(compiler, options));
+      app.use(resolve);
+    });
   };
 }
