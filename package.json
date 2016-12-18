@@ -1,6 +1,6 @@
 {
   "name": "think-webpack-dev-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack dev middleware for ThinkJS",
   "main": "index.js",
   "scripts": {},
