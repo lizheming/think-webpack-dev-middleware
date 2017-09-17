@@ -1,4 +1,6 @@
 # think-webpack-dev-middleware
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/lizheming/think-webpack-dev-middleware.svg)](https://greenkeeper.io/)
 webpack dev middleware for ThinkJS
 
 ## Installation
